@@ -1,0 +1,7 @@
+My backyard yearly mortor show was getting a little large and hard to keep track of how to plan things out with what fuse etc. So...
+
+I've developed the Firework Rack Planner , a Python and Tkinter desktop application designed to streamline the intricate process of planning fireworks displays. The tool features an interactive canvas where users can create and manage "Crate" and "Fan" style racks, defining their tube dimensions (X/Y) and arranging them with drag-and-drop, snap-to-grid/rack, rotation, and duplication. Individual tubes within these racks can be color-coded using a specific palette (White, Yellow, Pink, Blue, Orange, Green) via a dialog or a shift+click shortcut.
+
+Beyond rack and tube management, users can draw and label "flow lines" to visualize fuse paths, with their colors influencing estimated burn times. The application provides crucial metadata like estimated physical rack dimensions, tube color breakdowns, total fuse length by color, and an overall estimated show duration calculated from fuse burn rates. To enhance usability, the interface uses tabs for controls, and essential functions like undo/redo, JSON-based save/load for entire layouts (including racks, tubes, and lines), and PNG image export of the canvas are all implemented. This creates a robust foundation for a comprehensive fireworks planning solution.
+
+My favorite features are the Tube count, estimate fuse lengths and estimated duration of the show. 
